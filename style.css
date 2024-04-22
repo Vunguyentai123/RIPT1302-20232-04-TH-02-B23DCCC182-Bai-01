@@ -1,0 +1,166 @@
+#header{
+    background-color: #1a1919;
+    height: 40px;
+}
+#main-conten{
+    display: flex;
+    margin-top: -16px;
+}
+#sidebar {
+    width: 20%;
+    margin-left: -40px;
+}
+#main {
+    width: 80%;
+    margin-left: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(128, 240, 221);
+}
+#sidebar{
+    min-height: 1200px;
+}
+#sidebar ul li{
+    border: 1px solid rgb(232, 232, 236);
+    height: 30px;
+    background: rgb(158, 149, 149);
+    text-decoration: none;
+}
+#sidebar ul li a{
+    color: white;
+    padding-left: 10px;
+}
+.contect ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contect ul li {
+    float: left;
+    width: 25%; 
+    text-align: center; margin-bottom: 16px;
+}
+
+.contect ul li .item {
+    max-height: 80px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    background: rgb(58, 202, 207);
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+    
+}
+.contect ul li .item .xem{
+    background: rgb(189, 228, 231);
+    width: 110%;
+    padding-top: 30px;
+    text-align: center;
+    margin-left:-5% ;
+}
+.contect ul li .item .xem a{
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.Trang_chủ p{
+    border: 1px solid #ccc;
+    background: #bebebe;
+    padding: 10px;
+    border-left: 5px solid rgb(153, 144, 144);
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 300px;
+    align-items: flex-end;
+    height: 150px;
+    justify-content: space-between;
+    background-color: #0E46A3;
+    color: #E1F7F5;
+    text-align: left;
+    margin: 10px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #E1F7F5;
+    background-color: #1E0342;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: right;
+    padding: 20px;
+}
+
+
+
+table, th, td {
+    border: 1px double #000;  
+}
+
+table th {
+    padding: 5px;
+    background-color: white;
+    word-wrap: break-word;
+}
+
+table td {
+    padding: 2px;
+    margin: 5px;
+    word-wrap: break-word;
+}
+
+input {
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#studentForm {
+width: 100%;
+}
+
+#studentTable {
+    border-radius: 10px;
+    width: 100%;
+}
+
+table {
+    text-align: center;
+}
+
+#student_image {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
